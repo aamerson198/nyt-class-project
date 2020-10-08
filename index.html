@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>NYT Search</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+      
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12" class="test">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4">New York Times Search</h1>
+                  
+                </div>
+              </div>
+          <div class="alert alert-dark" role="alert">
+            Search For Articles <a href="#" class="alert-link"></a>
+          </div>
+
+          <form>
+            <div class="form-group">
+              <label for="formGroupExampleInput">Search Term:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="searchTerm"
+                
+              />
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Number of Records to Retrieve: </label>
+                <select class="form-control" id="numOfRecords">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2">Start Year (Optional):</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="startYear"
+                  
+                />
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">End Year (Optional):</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="endYear"
+                      
+                    />
+                   
+            <button type="button" class="btn btn-light" id="searchButton">Search</button>
+            <button type="button" class="btn btn-light" id="clearButton">Clear Results</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+
+
+
+                <div class="alert alert-dark" role="alert">
+                    Top Articles <a  class="alert-link"></a>
+                  </div>
+
+                  <div id="articlesContainer">
+
+
+
+
+                  </div>
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+          
+    <script src="" async defer></script>
+  </body>
+</html>

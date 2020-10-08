@@ -1,0 +1,18 @@
+form {
+  margin: 60px;
+}
+
+button {
+  margin: 20px;
+  width: 120px;
+  background-color: lightseagreen;
+}
+
+.test {
+  border-style: solid;
+  border-width: 1px;
+}
+
+.jumbotron jumbotron-fluid {
+  background-color: mediumblue;
+}
